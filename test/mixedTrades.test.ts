@@ -6,7 +6,7 @@ import { LooksRareV2Data, LooksRareV2Trade } from '../src/entities/protocols/loo
 import { looksRareV2Orders } from './orders/looksRareV2'
 import { seaportV1_4DataETHRecent } from './orders/seaportV1_4'
 import { Trade as V2Trade, Route as RouteV2, Pair } from '@uniswap/v2-sdk'
-import { Trade as V3Trade, Route as RouteV3, Pool } from '@uniswap/v3-sdk'
+import { Trade as V3Trade, Route as RouteV3, Pool } from '@derpdex/sdk'
 import { generatePermitSignature, makePermit } from './utils/permit2'
 
 import { UniswapTrade } from '../src'
