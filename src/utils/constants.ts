@@ -54,7 +54,7 @@ export const WETH_ADDRESS = (chainId: number): string => {
     case 56: // binance smart chain
       return '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
     case 280:
-      return '0x5672B500550E9916C9967E18F67915407D70C62e'
+      return '0xC3ec043C150c945652A09D7E47F856AC9fB0F893'
     case 324:
       return '0x5aea5775959fbc2557cc8789bc1bf90a239d9a91'
     default:

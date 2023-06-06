@@ -1,6 +1,6 @@
 {
   "name": "@derpdex/universal-router-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SDK for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
