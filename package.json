@@ -1,6 +1,6 @@
 {
   "name": "@derpdex/universal-router-sdk",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "SDK for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@derpdex/router-sdk": "^1.0.0",
-    "@derpdex/sdk": "^1.0.1",
+    "@derpdex/sdk": "^1.0.2",
     "@uniswap/permit2-sdk": "^1.2.0",
     "@uniswap/sdk-core": "^3.1.0",
     "@uniswap/universal-router": "1.4.2",
