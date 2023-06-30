@@ -956,10 +956,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@derpdex/router-sdk@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@derpdex/router-sdk/-/router-sdk-1.0.3.tgz#36a0d5f52420456840c38415e32898d98eb6b94c"
-  integrity sha512-KAsWqBU/hvB16iW/a4w3/z7c6FzGh7bGdxLS5PFRFF+Dco4S5YHZ2ZV3HvjkiYJ/1q2CTYlUoGcBZCMgI0O5MQ==
+"@derpdex/router-sdk@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@derpdex/router-sdk/-/router-sdk-1.0.4.tgz#8deb59072484a93e32c175c5308e152a095efe02"
+  integrity sha512-USslbk03qcnFZP614p0rhKubp8v5UfvuZe5RqY5Mc5AoPwR86RwXhRZBTVidDL8yTbe6qbJvMt/LQxWKNzg6AA==
   dependencies:
     "@derpdex/sdk" "^1.0.4"
     "@ethersproject/abi" "^5.5.0"
