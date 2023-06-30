@@ -956,21 +956,21 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@derpdex/router-sdk@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@derpdex/router-sdk/-/router-sdk-1.0.2.tgz#64983f93d0d2acf0ad88e9d86c697169d2016ffa"
-  integrity sha512-MjGI7cegjMIvB3M/VWrh8c0YIX+CuqcxSvyVUecmaZ7x/R9gvsr7WCpSU+gT/M3UV5NncMKB+637up9fo0PfGg==
+"@derpdex/router-sdk@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@derpdex/router-sdk/-/router-sdk-1.0.3.tgz#36a0d5f52420456840c38415e32898d98eb6b94c"
+  integrity sha512-KAsWqBU/hvB16iW/a4w3/z7c6FzGh7bGdxLS5PFRFF+Dco4S5YHZ2ZV3HvjkiYJ/1q2CTYlUoGcBZCMgI0O5MQ==
   dependencies:
-    "@derpdex/sdk" "^1.0.3"
+    "@derpdex/sdk" "^1.0.4"
     "@ethersproject/abi" "^5.5.0"
     "@uniswap/sdk-core" "^3.0.1"
     "@uniswap/swap-router-contracts" "1.1.0"
     "@uniswap/v2-sdk" "^3.0.1"
 
-"@derpdex/sdk@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@derpdex/sdk/-/sdk-1.0.3.tgz#5b61731d991448e51a6e92b728bf3c4fea79cd39"
-  integrity sha512-6kQLtfg6/YfK+ICVJ4xYi/JtqVkd993fSLV0AHXifUP0MTolvEbjedYWdl0Ytc5q2dkc2dSKaWoPWn6Sh7h46Q==
+"@derpdex/sdk@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@derpdex/sdk/-/sdk-1.0.4.tgz#68d66863dceec16b84ddd8f773ef54738114e1ab"
+  integrity sha512-AiYJCHdLThMuORaFqcdp/O7PbOwMH9PZSrvlItWalnUBzbulcdgbAlvK5ehr6K7VrCCl67/GRJgCz5m8TNlLGw==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
