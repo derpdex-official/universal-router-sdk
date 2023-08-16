@@ -28,8 +28,12 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
       return '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD'
     case 280: // Zksync Goerli
       return '0xA755E7D93cc20274e79d0DB7A122ed04284cC706'
-    case 324: 
+    case 324: // ZkSync mainnet
       return '0xd896563806661Cf88697b15F13bB794D89870A36'
+    case 84531: // Base Goerli
+      return '0xe58cFf7aA41ac6b33DBC5D1bC1b61Cab3a377B52'
+    case 8453: // TODO
+      return '0xe58cFf7aA41ac6b33DBC5D1bC1b61Cab3a377B52'
     default:
       throw new Error(`Universal Router not deployed on chain ${chainId}`)
   }
@@ -59,6 +63,10 @@ export const WETH_ADDRESS = (chainId: number): string => {
       return '0xC3ec043C150c945652A09D7E47F856AC9fB0F893'
     case 324:
       return '0x5aea5775959fbc2557cc8789bc1bf90a239d9a91'
+    case 84531:
+      return '0x4200000000000000000000000000000000000006'
+    case 8453:
+      return '0x4200000000000000000000000000000000000006'
     default:
       throw new Error(`WETH9 or UniversalRouter not deployed on chain ${chainId}`)
   }
