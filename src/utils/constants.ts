@@ -34,6 +34,8 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
       return '0xe58cFf7aA41ac6b33DBC5D1bC1b61Cab3a377B52'
     case 8453: // Base Mainnet
       return '0xd068aA2be5F7605ABbFC766AA870bDAa430E6d4C'
+    case 5611:
+      return '0xb0EF1fCaB7cCC69015bFdf8d86210FBA14bE1FB2'
     default:
       throw new Error(`Universal Router not deployed on chain ${chainId}`)
   }
@@ -66,6 +68,10 @@ export const WETH_ADDRESS = (chainId: number): string => {
     case 84531:
       return '0x4200000000000000000000000000000000000006'
     case 8453:
+      return '0x4200000000000000000000000000000000000006'
+    case 5611:
+      return '0x4200000000000000000000000000000000000006'
+    case 204:
       return '0x4200000000000000000000000000000000000006'
     default:
       throw new Error(`WETH9 or UniversalRouter not deployed on chain ${chainId}`)
