@@ -35,7 +35,7 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
     case 8453: // Base Mainnet
       return '0xd068aA2be5F7605ABbFC766AA870bDAa430E6d4C'
     case 5611:
-      return '0xb0EF1fCaB7cCC69015bFdf8d86210FBA14bE1FB2'
+      return '0x6c20D77ab0e7105D467054B4178310f08c90C9eD'
     default:
       throw new Error(`Universal Router not deployed on chain ${chainId}`)
   }
